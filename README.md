@@ -15,7 +15,24 @@ A simple WordPress Plugin that will pull new information for you
 1. Download or clone this repository.
 2. Place the `NewsPlug.php` file into your WordPress `wp-content/plugins/` directory.
 3. Go to your WordPress admin panel and activate **NewsPlug** under Plugins.
-4. Use the shortcode `[newsplug]` to display the latest news anywhere in your content.
+4. Use the shortcode `[music_news_dashboard height="600px"]` to display the latest news anywhere in your content.
+
+
+## Installation Admin Pannel
+How to add through admin page:
+
+Get the package prepared:
+This is just the php, WP needs to have a zip file. So put this php file in a folder and compress it(.zip). 
+
+
+Add it to wordpress:
+Go to your admin page
+Click on plugins
+Add Plugin
+Upload Plugin
+Choose the plugin
+Click activate
+use the shortcode in the ReadMe or make your own
 
 ## ✏️ Customization
 
@@ -43,28 +60,8 @@ Edit
 $url = "https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey=$apiKey";
 📌 Shortcode
 Use this shortcode to embed the news anywhere:
-
-plaintext
-Copy
-Edit
 [music_news_dashboard height="600px"]
 📎 Notes
-How to use:
-Add files via upload
-How to add through admin page:
-
-Get the package prepared:
-This is just the php, WP needs to have a zip file. So put this php file in a folder and compress it(.zip). 
-
-
-Add it to wordpress:
-Go to your admin page
-Click on plugins
-Add Plugin
-Upload Plugin
-Choose the plugin
-Click activate
-use the shortcode in the ReadMe or make your own
 
 This plugin does include styling. But you can add your own CSS to style the news output as needed.
 
