@@ -49,7 +49,22 @@ Copy
 Edit
 [music_news_dashboard height="600px"]
 📎 Notes
-You need a valid API key from NewsAPI.
+How to use:
+Add files via upload
+How to add through admin page:
+
+Get the package prepared:
+This is just the php, WP needs to have a zip file. So put this php file in a folder and compress it(.zip). 
+
+
+Add it to wordpress:
+Go to your admin page
+Click on plugins
+Add Plugin
+Upload Plugin
+Choose the plugin
+Click activate
+use the shortcode in the ReadMe or make your own
 
 This plugin does include styling. But you can add your own CSS to style the news output as needed.
 
