@@ -41,22 +41,18 @@ You can easily change:
 ### 🔑 1. API Key
 Replace the placeholder API key in the plugin code with your own from [NewsAPI](https://newsapi.org/):
 
-```php
+
 $apiKey = 'your_api_key_here';
 🌍 2. Country or Topic
 Modify the API endpoint URL to fetch news from a specific country or category:
 
-php
-Copy
-Edit
+
 $url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=$apiKey";
 // Example: change `country=us` to `country=gb` or add `&category=technology`
 🔢 3. Number of Articles
 Limit the number of articles by changing the pageSize parameter in the URL:
 
-php
-Copy
-Edit
+
 $url = "https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey=$apiKey";
 📌 Shortcode
 Use this shortcode to embed the news anywhere:
