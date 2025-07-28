@@ -67,4 +67,6 @@ This plugin does include styling. But you can add your own CSS to style the news
 
 For any more inforamtion feel free to contact us at https://mivibzzz.com/
 
+This app was created for https://kingandqueenradio.com/ and can be used on their platform
+
 Any custom solutions to your problems can be handled in a matter of minutes
